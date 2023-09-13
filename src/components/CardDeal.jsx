@@ -5,11 +5,14 @@ import Button from "./Button";
 const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        Getting started is <br className="sm:block hidden" /> quick and easy.
-      </h2>
+      <h3 className={styles.heading2}>
+        Sensitive files are stored as strings on the blockchain.
+      </h3>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        With the help of mutlisig, we make sure your private files remain secure.
+      </p>
 
-      <Button styles={`mt-10`} />
+     
     </div>
 
     <div className={layout.sectionImg}>

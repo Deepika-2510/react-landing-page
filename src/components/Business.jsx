@@ -24,9 +24,7 @@ const Business = () =>  (
       <h2 className={styles.heading2}>
         Securely access documents <br className="sm:block hidden" /> anytime, anywhere.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Safety deposit box for all your digital assets.
-      </p>
+      
 
       <Button styles={`mt-10`} />
     </div>

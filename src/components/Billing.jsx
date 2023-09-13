@@ -13,9 +13,12 @@ const Billing = () => (
     </div>
 
     <div className={layout.sectionInfo}>
-      <h3 className={styles.heading2}>
-        Easily share your documents among your collegues.
-      </h3>
+      <h5 className={styles.heading2}>
+      Public files stored onto the blockchain using Infura.
+      </h5>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        With the help of a web 3.0 based IPFS service, this is a safety deposit box for all your digital assets.
+      </p>
       
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
