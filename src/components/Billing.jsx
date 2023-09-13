@@ -11,7 +11,8 @@ const Billing = () => (
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
       {/* gradient end */}
     </div>
-
+       
+       
     <div className={layout.sectionInfo}>
       <h5 className={styles.heading2}>
       Public files stored onto the blockchain using Infura.
